@@ -1,0 +1,47 @@
+export const scoreData = [
+  {
+    duration: 65956,
+    errors: 2,
+    id: 0,
+    length: 54,
+    quoteId: "2xpHvSOQMD",
+    uniqueCharacters: 17,
+    userName: "Max",
+  },
+  {
+    duration: 65900,
+    errors: 5,
+    id: 1,
+    length: 25,
+    quoteId: "2xpHvSOQMD",
+    uniqueCharacters: 10,
+    userName: "Charles",
+  },
+  {
+    duration: 70000,
+    errors: 2,
+    id: 2,
+    length: 60,
+    quoteId: "2xpHvSOQMD",
+    uniqueCharacters: 23,
+    userName: "Lando",
+  },
+  {
+    duration: 65956,
+    errors: 2,
+    id: 3,
+    length: 65,
+    quoteId: "2xpHvSOQMD",
+    uniqueCharacters: 23,
+    userName: "Fernando",
+  },
+  {
+    duration: 62000,
+    errors: 2,
+    id: 4,
+    length: 65,
+    quoteId: "2xpHvSOQMD",
+    uniqueCharacters: 23,
+    userName: "Oscar",
+  }
+]
