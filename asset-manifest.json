@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/hang-the-wise-man/static/css/main.34160e92.css",
+    "main.js": "/hang-the-wise-man/static/js/main.0ca5236f.js",
+    "static/js/787.6150f52f.chunk.js": "/hang-the-wise-man/static/js/787.6150f52f.chunk.js",
+    "static/media/party.png": "/hang-the-wise-man/static/media/party.de20009c4102fc203ab3.png",
+    "static/media/dead.png": "/hang-the-wise-man/static/media/dead.0707128d475b8dbf7f2e.png",
+    "static/media/hangman.png": "/hang-the-wise-man/static/media/hangman.7e37d44a2e03b13d89ac.png",
+    "static/media/logo.svg": "/hang-the-wise-man/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/hang-the-wise-man/index.html",
+    "main.34160e92.css.map": "/hang-the-wise-man/static/css/main.34160e92.css.map",
+    "main.0ca5236f.js.map": "/hang-the-wise-man/static/js/main.0ca5236f.js.map",
+    "787.6150f52f.chunk.js.map": "/hang-the-wise-man/static/js/787.6150f52f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34160e92.css",
+    "static/js/main.0ca5236f.js"
+  ]
+}
