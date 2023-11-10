@@ -1,11 +1,10 @@
 import { scoreCalculator } from '../utils/score-utils'
-
 import { scoreData } from './___mocks___/score-data-mock'
 
 describe('score calculation', () => {
   const scores = scoreCalculator(scoreData)
 
-  test('deifferent number of errors', () => {
+  test('different number of errors', () => {
     const player1 = scores.find(player => player.userName === 'Charles')
     const player2 = scores.find(player => player.userName=== 'Max')
 
