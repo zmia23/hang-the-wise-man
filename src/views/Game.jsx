@@ -132,7 +132,7 @@ const Game = () => {
           isSuccess={ isSuccess }
         />
         <div style={{ width: '50%', display: 'flex', justifyContent: 'center' }}>
-          <GallowAndMan errors={wrongLetters.length} />
+          <GallowAndMan errors={ wrongLetters.length } />
         </div>
         <div style={{ width: '50%', display: 'flex', flexDirection: 'column' }}>
           <Stopwatch isActive={ stopwatchActive } setTime={ setDuration } time={ duration } />

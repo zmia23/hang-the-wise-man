@@ -48,7 +48,7 @@ const Home = () => {
         <TextField label='Player name' variant='filled' onChange={ e => setPlayerName(e.target.value) }/>
       </div>
       <div style={{ width: 'auto', alignSelf:'center', alignItems: 'center'}}>
-        <Button variant='contained' startIcon={ <SportsEsports/> } onClick={handleStartGame}>Start Game</Button>
+        <Button variant='contained' startIcon={ <SportsEsports/> } onClick={ handleStartGame }>Start Game</Button>
       </div>
     </div>
   )
