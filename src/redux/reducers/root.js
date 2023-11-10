@@ -1,6 +1,6 @@
-import playerReducer from "./player";
+import playerReducer from './player';
 import quoteReducer from './quote'
-import leaderboardsReducer from "./score";
+import leaderboardsReducer from './score';
 import { combineReducers } from 'redux'
 
 const rootReducer = combineReducers({

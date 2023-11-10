@@ -10,7 +10,7 @@ function App() {
 
   return (
     <ThemeProvider theme={outerTheme}>
-      <BrowserRouter>
+      <BrowserRouter basename='/hang-the-wise-man'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/game' element={<Game />} />

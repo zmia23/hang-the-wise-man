@@ -1,0 +1,15 @@
+.figure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+
+.figure-container svg {
+  fill: transparent;
+  stroke: #000000;
+  stroke-width: 0.4em;
+  stroke-linecap: round;
+  width: 100%;
+  height: auto;
+}

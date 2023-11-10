@@ -1,13 +1,13 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from 'react'
 
-import { Button,TextField } from "@mui/material"
-import { SportsEsports } from "@mui/icons-material"
+import { Alert, Button,TextField } from '@mui/material'
+import { SportsEsports } from '@mui/icons-material'
 
-import { useDispatch, useSelector } from "react-redux"
-import { useNavigate } from "react-router-dom"
-import { savePlayerName } from "../redux/actions/player"
+import { useDispatch, useSelector } from 'react-redux'
+import { useNavigate } from 'react-router-dom'
+import { savePlayerName } from '../redux/actions/player'
 
-import HangmanIcon from '../hangman.png'
+import HangmanIcon from '../assets/hangman.png'
 import '../styles/home.css'
 
 const Home = () => {
@@ -35,8 +35,9 @@ const Home = () => {
 
   return(
     <div style={{ display: 'flex', justifyContent: 'center', flexDirection:'column'}}>
+      { error && <Alert severity='error'>{ error }</Alert> }
       <div className='image-container'>
-        <img  src={HangmanIcon} alt='hanging man' style={{ width: '300px'}}/>
+        <img  src={ HangmanIcon } alt='hanging man' style={{ width: '300px'}}/>
       </div>
       <div style={{ textAlign: 'center' }}>
         <h1>
@@ -44,10 +45,10 @@ const Home = () => {
         </h1>
       </div>
       <div style={{ display: 'flex', alignSelf: 'center', flexDirection:'column', width: '20%', marginBottom: '30px', alignItems: 'center'}}>
-        <TextField label="Player name" variant="filled" onChange={ e => setPlayerName(e.target.value) }/>
+        <TextField label='Player name' variant='filled' onChange={ e => setPlayerName(e.target.value) }/>
       </div>
       <div style={{ width: 'auto', alignSelf:'center', alignItems: 'center'}}>
-        <Button variant="contained" startIcon={<SportsEsports/>} onClick={handleStartGame}> Start Game</Button>
+        <Button variant='contained' startIcon={ <SportsEsports/> } onClick={handleStartGame}>Start Game</Button>
       </div>
     </div>
   )

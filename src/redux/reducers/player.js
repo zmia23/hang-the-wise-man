@@ -2,7 +2,7 @@ import {
   SAVE_PLAYER_NAME_REQUEST,
   SAVE_PLAYER_NAME_SUCCESS,
   SAVE_PLAYER_NAME_FAILURE
-} from "../actions/player"
+} from '../actions/player'
 
 const initState = {
   data: '',

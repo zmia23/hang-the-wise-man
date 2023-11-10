@@ -1,4 +1,4 @@
-import { apiClient } from "../../api/api-client"
+import { apiClient } from '../../api/api-client'
 
 export const FETCH_QUOTE_REQUEST = 'FETCH_QUOTE_REQUEST'
 export const FETCH_QUOTE_SUCCESS = 'FETCH_QUOTE_SUCCESS'
@@ -22,9 +22,7 @@ export const fetchQuote = () => {
   return async (dispatch) => {
     dispatch(fetchQuoteRequest())
     try {
-      console.log('LOADING::::QUOTE')
       const quote = await apiClient.getQuote()
-      console.log('RESPONSE:::QUOTE:::', quote)
       dispatch(fetchQuoteSuccess(quote))
     } catch(e) {
       dispatch(fetchQuoteFailure(e))
